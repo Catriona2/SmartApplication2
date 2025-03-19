@@ -1,0 +1,3 @@
+module moduleuser {
+    exports moduleuser;
+}
