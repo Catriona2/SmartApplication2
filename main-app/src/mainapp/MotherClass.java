@@ -7,25 +7,16 @@ import moduleitem.Items;
 
 import java.util.Scanner;
 
-public class MotherClass {
+public class MotherClasses {
     public static void main(String[] args) {
 
-        Scanner Customer = new Scanner(System.in);
-        System.out.println("please Enter your name");
-        String names =Customer.next();
-        System.out.println("Please Enter your age");
-        int age =Customer.nextInt();
-          Scanner   secondcustomer= new Scanner(System.in);
-        System.out.println("please Enter your name");
-           String namess= secondcustomer.next();
-        System.out.println("Please Enter your age");
-          int  ages=secondcustomer.nextInt();
+
         UserService userService = new UserService();
         ItemService itemService = new ItemService();
 
 
-        userService.addUser(names, age);
-        userService.addUser(namess, ages);
+        userService.addUser(name, age);
+        userService.addUser(name, age);
 
 
         itemService.addItem("Laptop", 150.00);
