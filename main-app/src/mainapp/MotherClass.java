@@ -7,8 +7,13 @@ import moduleitem.Items;
 
 import java.util.Scanner;
 
-public class MotherClasses {
+public class MotherClass {
+
+
+    static String name  = " Awor";
+    static int age=23;
     public static void main(String[] args) {
+        User use = new User("Awor",22);
 
 
         UserService userService = new UserService();
