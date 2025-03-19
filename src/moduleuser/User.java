@@ -2,6 +2,7 @@ package moduleuser;
 
 public class User {
     private String name;
+    int aging;
     private int age;
 
     public User(String namee, int agee) {
